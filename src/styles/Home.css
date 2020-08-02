@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+.center_content{
+    position: absolute;
+    top:50%;
+    left: 29%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+}
+.center_content h1{
+    font-size: 5rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 15px;
+    font-family: 'Mulish', sans-serif;
+}
+.center_content h2{
+    top:99%;
+    padding-right: 20px;
+}
+.image{
+    position: absolute;
+    top:20%;
+    right:10%;
+    align-items: center;
+    
+}
+img{
+    width: 550px;
+    height: 450px;
+}
+.center_content h1:hover{
+    color: #d4418e;
+
+}
+.center_content h2{
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+
+.center_content h2:before{
+    content: "";
+    width: 80px;
+    height: auto;
+    border: 2px solid #fff;
+    position: relative;
+    left: 0;
+    bottom: 0pxx;
+    margin-top: 10px;
+    margin-right: 20px;
+    float: left;
+ 
+    
+    margin-bottom: 20px;
+}
+
+.social_network{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    left:40px;
+}
+
+.fa_icons{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: #d4418e;
+background-image: linear-gradient(315deg, #d4418e 0%, #0652c5 74%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fa_icons:nth-child(even){
+    margin: 20px 0;
+
+}
+.fa_icons:hover{
+     background-color: #d4418e;
+    background-image: linear-gradient(315deg,  #0652c5 0%, #d4418e 74%);
+}
+
+
+.shh{
+    position: absolute;
+   top:75%;
+    left: 20%;
+    background-color: #f6d327;
+background-image: linear-gradient(315deg, #f6d327 0%, #de4daa 74%);
+    padding: 10px;
+ 
+    font-size: 20px;
+    font-weight: bold;
+    border: 1 px solid transparent;
+}
+.shh:hover{
+    background-color: #d4418e;
+background-image: linear-gradient(315deg, #d4418e 0%, #0652c5 74%);
+}
+.nav-link{
+    padding: 50px;
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+.container{
+        width:1000px;
+        position: absolute;
+        top:15%;
+        left: 17%;
+        margin: 70px auto 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+}
+.container .box{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 20px;
+
+}
+.title{
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    position: absolute;
+    top:10%;
+    left: 40%;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+}
+.title h1:hover{
+    color: #d4418e;
+}
+.container .box .imgBox{
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.container .box .imgBox img{
+   
+    width: 200px;
+    height: 200px;
+    transition: transform 2s;
+
+}
+
+.container .box:hover .imgBox img{
+    transform:scale(1.2);
+}
+.container .box .details{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left:20px;
+    right: 20px;
+    bottom: 20px;
+    top: 20px;
+    background: rgba(0,0,0,.8);
+    transform:scaleY(0);
+    transition: transform 0.5;
+}
+.container .box:hover .details{
+    transform:scaleY(1);
+}
+.container .box .details .content{
+     position: absolute;
+    bottom:30%;
+    left:30%;
+    transform: translateY(-50%,-50%);
+    text-align: center;
+  
+     padding: 15px;
+    color: #fff;
+
+} 
+h2{
+    color: white;
+    /* position: absolute;
+   top:50%;
+    left:10%;
+    transform: translateY(-50%); */
+    text-align: center;
+}
